@@ -27,6 +27,6 @@ h3 {
     text-align: center;
 }
 
-h3:nth-child(odd){
+div:nth-child(odd) h3{
     font-style: italic;
 }
