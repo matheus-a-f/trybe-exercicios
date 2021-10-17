@@ -1,3 +1,5 @@
+//exercise completed with the help of this youtube video: https://www.youtube.com/watch?v=shO5VbD2rNI
+
 function reverseTriangle(size){
     let output = ''
 
