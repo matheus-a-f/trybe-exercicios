@@ -1,3 +1,5 @@
+//exercise developed using reference from Tiago Meireles - Turma 17's code, posted on slack on October 15th.
+
 function tailCheck(string, stringEnding){
     string = string.split('')
     stringEnding = stringEnding.split('')
