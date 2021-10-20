@@ -13,3 +13,9 @@ secondParagraph.style.fontSize = '25px'
 
 const subtitleEl = document.getElementById('subtitle')
 subtitleEl.innerText = "Hi, I'm Hylea!"
+
+const paragraphsEl = document.getElementsByClassName('paragraphs')
+paragraphsEl[0].style.backgroundColor = 'pink'
+
+const subtitleEl2 = document.getElementsByTagName('h4')
+subtitleEl2[0].style.color = 'green'
