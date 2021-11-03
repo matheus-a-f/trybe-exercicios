@@ -28,10 +28,10 @@
             <input type="text" maxlength="28" name="city" required>
             <br>
             <label for="states-dropdown">Estado:</label>
-            <select name="states-dropdown" required></select>
+            <select name="states-dropdown" id="user-state" required></select>
             <br>
-            <label for="housing"><input type="radio" name="housing" value="casa" required>Casa</label>
-            <label for="housing"><input type="radio" name="housing" value="apartamento" required>Apartamento</label>
+            <label for="housing"><input type="radio" name="housing" value="house" required>Casa</label>
+            <label for="housing"><input type="radio" name="housing" value="apartment" required>Apartamento</label>
         </fieldset>
 
         <fieldset>
@@ -47,8 +47,9 @@
             <label for="start-date">Data de Início:</label>
             <input type="date" name="start-date" required>
         </fieldset>
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpar</button>
+        <button type="submit" id="submit-btn" class="btn">Enviar</button>
+        <button type="reset" id="reset-btn" class="btn">Limpar</button>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
