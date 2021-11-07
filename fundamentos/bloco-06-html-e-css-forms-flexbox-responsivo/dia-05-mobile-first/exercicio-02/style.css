@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5em;
+    margin: 5%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+img {
+    max-width: 100%;
+}
+
+figcaption {
+    margin-bottom: 4vh;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(223, 223, 223);
+    }
+    main {
+        display: flex;
+    }
+    figure {
+        flex-basis: 100%;
+        margin-right: 5%;
+    }
+}
