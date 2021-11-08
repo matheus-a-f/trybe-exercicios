@@ -25,17 +25,41 @@ figcaption {
 
 figure {
     margin: 0;
+    text-align: center;
 }
+
+/* @media screen and (min-width: 550px) {
+    figure {
+        text-align: center;
+    }
+} */
 
 @media screen and (min-width: 1000px) {
     body {
         background-color: rgb(223, 223, 223);
+        margin: 2.5%;
     }
     main {
-        display: flex;
+        display: inline-block;
+    }
+    main h2 {
+        display: block;
+        width: 100%;
     }
     figure {
-        flex-basis: 100%;
-        margin-right: 5%;
+        margin-right: 1.5%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    body {
+        background-color: rgb(255, 204, 252);
+        margin: 2%;
+        font-size: 1.7em;
+        max-width: 90%;
+    }
+    h2 {
+        font-size: 1.5em;
     }
 }
